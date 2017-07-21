@@ -1,0 +1,20 @@
+{
+  "name": "purescript",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^3.0.0",
+    "purescript-console": "^3.0.0",
+    "purescript-foreign-generic": "^4.1.0",
+    "purescript-aff": "^3.1.0",
+    "purescript-affjax": "^4.0.0",
+    "purescript-transformers": "^3.3.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^3.0.0"
+  }
+}
