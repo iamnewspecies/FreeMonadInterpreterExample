@@ -43,7 +43,6 @@ makeSound = do
 	_ <- shout "Aaaaaaa"
 	_ <- cry "ouyaaaa"
 	purr "mewooon"
-	-- end
 
 
 -- THIS WE DO WHEN WE ARE WRITING THE IMPLEMENTATION --
@@ -72,6 +71,3 @@ interpret (End nextFunction) = do
 
 run :: forall a. Free Command a -> Effect a
 run = foldFree interpret
-
-main :: Effect Unit
-main = run makeSound *> pure unit
